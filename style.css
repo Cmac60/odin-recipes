@@ -1,6 +1,19 @@
-h1 {
+body {
+    background-color: lavender;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
     text-align: center;
     background-color: blueviolet;
-    font-family: 'Times New Roman', Times, serif;
     color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.recipes,
+.cocktails {
+    font-size: 30px;
+    font-style: italic;
+    color: darkviolet;
 }

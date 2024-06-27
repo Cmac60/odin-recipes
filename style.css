@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -7,6 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     border: 10px solid green;
     padding: 20px;
+    padding-bottom: 200px;
 }
 
 .title {
@@ -24,7 +27,17 @@ body {
 .cocktails {
     font-size: 30px;
     font-style: italic;
-    color: darkviolet;
+    color: black;
+    height: 100px;
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: darkorchid;
+    border: 5px solid black;
+}
+
+.recipes {
+    margin-top: 100px;
 }
 
 .recipe-title {
@@ -37,14 +50,20 @@ body {
 
 .recipe-list {
     font-weight: bold;
+    margin: 50px;
 }
 
 .back-link {
     font-size: 24px;
     font-weight: bold;
+    display: block;
+    margin-top: 70px;
 }
 
 .recipe-img {
     display: block;
     margin: auto;
+    border: 5px solid darkorchid;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
 body {
     background-color: lavender;
     font-family: 'Arial', sans-serif;
-    border: 10px solid green;
+    border: 10px groove green;
     padding: 20px;
     padding-bottom: 200px;
 }
@@ -17,27 +19,11 @@ body {
     background-color: blueviolet;
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
-    border: 10px solid black;
-    margin: 30px;
-}
-
-.recipes,
-.cocktails {
-    font-size: 30px;
-    font-style: italic;
-    color: black;
-    height: 100px;
-    width: 250px;
-    padding-left: 20px;
-    padding-top: 10px;
-    background-color: darkorchid;
-    border: 5px solid black;
-}
-
-.recipes {
-    margin-top: 100px;
+    border: 10px ridge black;
+    width: 650px;
+    margin: auto;
 }
 
 .recipe-title {
@@ -66,4 +52,29 @@ body {
     border: 5px solid darkorchid;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.menu-bar {
+    margin: 20px;
+    text-align: center;
+    border: 5px groove green;
+    background-color: plum;
+    padding: 10px;
+}
+
+.menu-link {
+    display: inline-block;
+    font-size: 24px;
+    border: 4px ridge black;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    background-color: darkorchid;
+    margin: 10px;
+}
+
+.menu-link:hover {
+    background-color: green;
+    color: magenta;
+    font-weight: bold;
 }
